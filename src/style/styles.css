@@ -1,0 +1,343 @@
+.wrapper{
+    min-height: auto;
+    width: auto;
+  }
+  .header {
+    background-color: #ec1e37;
+    box-shadow: 0 1px 4px #333;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  .navbar{
+    height: 60px;
+    width: 1200px;
+    margin: auto;
+  }
+  .logo {
+    float: left;
+    width: 100px;
+    height: 60px;
+    cursor: pointer;
+  }
+  .imgfluid {
+    margin-top: 4px;
+    margin-left: 30px;
+    height: 60px;
+}
+  span.logo {
+    color: white;
+    font-size: 36px;
+    font-weight: bold;
+  }
+  
+  .menu{
+    height: 60px;
+    float: right!important;
+    margin-right: 0px;
+    font-size: 14px;
+    margin-top: 3px;
+    text-transform: uppercase;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  .menu ul li{
+    float: left;
+    margin-right: 7px;
+    list-style: none;
+    line-height: 22px;
+    color: white;
+    padding: 5px 10px;
+    text-decoration: none;
+   
+  }
+  .menu ul li:last-child{
+    background-color: #CC1B16;
+    border-radius: 30px;
+    width: 94px;
+    height: 15px;
+    margin-top: 3px;
+    text-align: center;
+    line-height: 15px;
+    font-size: 14px;
+    text-transform: none;
+  }
+  
+  .menu ul li a:hover{
+    /* background-color: azure; */
+    color: blue;
+    width: 100px;
+    cursor: pointer;
+    height: 300x;
+  }
+  .head-bottom{
+    clear: both;
+    background: linear-gradient(150deg, red, maroon);
+    width: 1200px;
+    height: 60px;
+    margin: 18px auto;
+    border-radius: 15px;
+    margin-top: 80px;
+  }
+  p{
+      color: white;
+      font-size: 18px;
+      font-weight: bold;
+      text-align: center;
+      line-height: 60px;
+  }
+  .container{
+    width: 1200px;
+    min-height: 630px;
+    margin: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    clear: both;
+  }
+  .slider img{
+    width: 900px;
+    height: 400px;
+    margin: auto;
+    float: left;
+    border-radius: 10px;
+  }
+  .container-kanan {
+    width: 250px;
+    height: 400px;
+    margin: auto;
+    float: right;
+  }
+.container-kanan .container-right{
+    background-color: indianred;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 175px;
+    width: 250px;
+    background-size: contain;
+    border-radius: 10px;
+    text-align: left;
+    margin-bottom: 25px;
+  }
+.minibanner1{
+  height: 175px;
+  width: 250px;
+  margin-top: 0px; 
+}
+
+.minibanner2{
+  height: 175px;
+  width: 250px;
+  margin-top:45px;  
+}
+
+  .container-kanan .container-right:last-child{
+    background-color: skyblue;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 175px;
+    width: 250px;
+    background-size: contain;
+    border-radius: 10px;
+    text-align: left;
+  }
+  button {
+    background-color: #EC1D45;
+    width: 106px;
+    height: 30px;
+    border-radius: 15px;
+    border: none;
+    margin-top: 95px;
+    margin-left: 20px;
+    cursor: pointer;
+  }
+  .banner-bottom{
+    clear: both;
+    margin-top: 20px;
+  }
+  .banner-bottom-ok{
+    background-color: teal;
+    margin: 0px 16px;
+    height: 200px;
+    width: 267px;
+    border-radius: 10px;
+    float: left;
+    margin-top: 20px;
+    border: 0.3px solid;
+  }
+
+  
+  .img-iflix {
+    height: 160px;
+    width: 265px;
+    border-radius: px;
+    margin-left: 1px;
+    border-radius: 10px;
+    margin-top: 1px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+
+  .img-hooq {
+    height: 160px;
+    width: 265px;
+    border-radius: px;
+    margin-left: 1px;
+    border-radius: 10px;
+    margin-top: 1px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+
+  .img-edukids {
+    height: 160px;
+    width: 265px;
+    border-radius: px;
+    margin-left: 1px;
+    border-radius: 10px;
+    margin-top: 1px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+
+  .img-catchplay {
+    height: 160px;
+    width: 265px;
+    border-radius: px;
+    margin-left: px;
+    border-radius: 10px;
+    margin-top: 1px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+
+  .addon{
+    height: 40px;
+    background-color: white;
+    margin-top: -5px;
+    margin-left: 1px;
+    margin-right: 1px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 265px;
+  }
+  
+  .addon a {
+    float: right;
+    line-height: 30px;
+    margin-right: 15px;
+    margin-top: 6px;
+    color: #ec1e37;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 700;
+  }
+
+  p.ket{
+    color: black;
+    float: left;
+    line-height: 0px;
+    margin-left: 25px;
+    margin-top: 20px;
+    font-size: 14px;
+  }
+
+  h2{
+    clear: both;
+    margin-bottom: -8px;
+  }
+
+  .container-tivi{
+    width: 1200px;
+    height: 500px;
+    margin: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    clear: both;
+  }
+
+  .tivi{
+    background-color: #020825;
+    width: 100%;
+    height: 500px;
+    margin-top: 60px;
+  }
+  
+.tivi h2{
+    color: aliceblue;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+  }
+
+.list-tivi {
+  width: 600px;
+  height: 70px;
+  margin: auto;
+  margin-top: 17px;
+}
+
+  .list-img1 {
+    margin-left: 120px;
+    float: left;
+    border-right:2px solid lightslategray;
+    cursor: pointer;
+  }
+
+  .list-img2 {
+    margin-left: 20px;
+    float: left;
+    margin-top: 6px;
+    cursor: pointer;
+  }
+
+  .list-img3 {
+    margin-left: 14px;
+    float: left;
+    border-left: 2px solid lightslategray;
+    cursor: pointer;
+  }
+
+  .img-tv1 {
+    height: 320px;
+    width: 265px;
+    margin-left: 1px;
+    border-radius: 10px;
+    margin-top: 1px;
+    border-radius: 15px;
+  }
+
+  .img-tv2 {
+    height: 320px;
+    width: 265px;
+    margin-left: 1px;
+    border-radius: 10px;
+    margin-top: 1px;
+    border-radius: 15px;
+  }
+
+  .img-tv3 {
+    height: 320px;
+    width: 265px;
+    margin-left: 1px;
+    border-radius: 10px;
+    margin-top: 1px;
+    border-radius: 15px;
+  }
+
+  .img-tv4 {
+    height: 320px;
+    width: 265px;
+    border-radius: 10px;
+    margin-top: 1px;
+    border-radius: 15px;
+  }
+
+  .banner-bottom-tv {
+    margin: 0px 16px;
+    height: 200px;
+    width: 267px;
+    border-radius: 10px;
+    float: left;
+    margin-top: 20px;
+    border: 0.3px solid;
+  }
